@@ -26,4 +26,3 @@ ReactDOM.render((
     {Routes}
   </Router>
 ), document.getElementById(DOM_APP_EL_ID));
-

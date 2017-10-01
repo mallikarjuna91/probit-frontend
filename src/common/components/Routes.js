@@ -2,13 +2,15 @@ import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
 import App from './App';
-import LoginPage from '../../pages/login/page';
-import HomePage from '../../pages/home/page';
+import TradePage from '../../pages/TradePage/page';
+import Dashboard from '../../pages/Dashboard/page';
+import ProbitDashboard from '../../pages/ProbitDashboard/page';
 
 
 export default (
-  <Route path="/" component={App}>
-    <IndexRoute component={LoginPage} />
-    <Route path="home" component={HomePage} />
-  </Route>
+      <Route path="/" component={App}>
+        <IndexRoute component={TradePage} />
+        <Route path="dashboard" component={Dashboard} />
+        <Route path="probitdashboard" component={ProbitDashboard} />
+      </Route>
 );

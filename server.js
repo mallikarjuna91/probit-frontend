@@ -1,4 +1,5 @@
 import express from 'express';
+var proxy = require('express-http-proxy');
 const app = express();
 
 
@@ -11,12 +12,24 @@ const app = express();
  *
  ************************************************************/
 
+var backendUrl = "http://localhost:4545/"
+
+app.use('/api', proxy(backendUrl));
+
 // Serve application file depending on environment
 app.get('/app.js', (req, res) => {
   if (process.env.PRODUCTION) {
     res.sendFile(__dirname + '/build/app.js');
   } else {
     res.redirect('//localhost:9090/build/app.js');
+  }
+});
+
+app.get('/img/probit.png', (req, res) => {
+  if (process.env.PRODUCTION) {
+    res.sendFile(__dirname + '/build/probit.png');
+  } else {
+    res.redirect('//localhost:9090/build/img/probit.png');
   }
 });
 

@@ -1,0 +1,38 @@
+.stockList {
+  margin-top: 10px;
+}
+
+.heading {
+  font-size: 10vw;
+}
+
+.div{
+
+}
+
+.stockList .header{
+    background: #2296f3;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+    font-size: 25px;
+    color: white;
+}
+
+.stockList .list{
+    background: #f1f1f1;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+}
+
+.stockList .name,.stockList .price{
+    display: flex;
+    align-self: center;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.buy {
+    background: red;
+}

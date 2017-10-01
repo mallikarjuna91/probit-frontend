@@ -1,0 +1,45 @@
+.stockList {
+  margin-top: 10px;
+}
+
+.heading {
+  font-size: 10vw;
+}
+
+.div{
+
+}
+
+.stockList .header{
+    background: #2296f3;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+    font-size: 25px;
+    color: white;
+}
+
+.stockList .list{
+    background: #f1f1f1;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+    padding-left: 70px;
+}
+
+.stockList .name,.stockList .price, .stockList .units{
+    display: flex;
+    align-self: center;
+    font-weight: 600;
+    text-align: center;
+    width: 100px;
+    text-transform: capitalize;
+}
+
+
+.note {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 25px;
+}

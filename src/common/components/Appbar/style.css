@@ -1,0 +1,41 @@
+.content {
+    align-content: right;
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+    margin-left: auto;
+    width: 300px;
+}
+
+
+.content a {
+    margin-right: 10px ;
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+.userDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+
+.name {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.total {
+    font-weight: 600;
+}
+
+.logo{
+    background-image: url(http://localhost:8080/img/probit.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 50px;
+}

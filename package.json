@@ -1,7 +1,7 @@
 {
-  "name": "essential-react",
+  "name": "probit",
   "version": "0.5.0",
-  "description": "A minimal skeleton for building testable React apps using Babel",
+  "description": "A fronet end for probit application",
   "main": "src/main.js",
   "scripts": {
     "postinstall": "npm run build",
@@ -38,7 +38,9 @@
     "babel-register": "^6.5.2",
     "coveralls": "^2.11.2",
     "css-loader": "^0.18.0",
+    "electron": "^1.7.5",
     "enzyme": "^2.0.0",
+    "express-http-proxy": "^1.0.6",
     "extract-text-webpack-plugin": "^0.8.2",
     "nyc": "^5.6.0",
     "postcss-loader": "^0.6.0",
@@ -55,8 +57,13 @@
     "babel-polyfill": "^6.5.0",
     "babel-runtime": "^6.5.0",
     "express": "^4.12.3",
+    "muicss": "^0.9.26",
+    "rc-slider": "^8.3.1",
+    "rc-tooltip": "^3.5.0",
     "react": "^15.0.1",
+    "react-autocomplete": "^1.7.1",
     "react-dom": "^15.0.1",
+    "react-modal": "^2.3.2",
     "react-router": "^2.0.0"
   }
 }

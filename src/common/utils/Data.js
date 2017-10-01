@@ -1,0 +1,22 @@
+export default  [
+    {
+        shareId:"amzn",
+        name:"amzn",
+        price:1000
+    },
+    {
+        shareId:"acn",
+        name:"acn",
+        price:140
+    },
+    {
+        shareId:"googl",
+        name:"googl",
+        price:1000
+    },
+    {
+        shareId:"ibm",
+        name:"ibm",
+        price:150
+    }
+];
